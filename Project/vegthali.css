@@ -1,0 +1,81 @@
+.top_cat
+{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.top_cat_pro
+{
+	border: 0px solid red;
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	transition: transform 1s;
+}
+.top_cat_pro:hover
+{
+	transform: scale(1.2);
+}
+.top_cat_pro img
+{
+	width:100%;
+}
+
+.checked
+{
+	color:orange;
+}
+.starr
+{
+	border: 0px solid black;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footerb
+{
+	height: 180px;
+	width: 20%;
+	float: left;
+	color: white;
+	text-align: center;
+}
+
+.btn
+{
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn input
+{
+	height: 30px;
+	width: 150px;
+	border-radius: 7px;
+	border: 0px;
+	background-color: orange;
+	font-size: 20px;
+}
+
+.btn input:hover
+{
+	background-color: green;
+	color: white;
+}
